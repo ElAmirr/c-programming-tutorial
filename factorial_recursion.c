@@ -13,6 +13,6 @@ int main()
 {
 	int f;
 	f=fact(5);
-	printf("5!=%d",f);
+	printf("5!=%d\n",f);
 return 0;
 }

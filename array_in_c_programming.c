@@ -19,7 +19,7 @@ int main()
     //calculation procces
     sum = num[0];
     for(i=0;i<4;i++)
-    {
+    {if
         sum = sum+num[i];
     }
     avg = sum/l;
