@@ -23,14 +23,14 @@ void fibo(int f) {
         wait(NULL); 
     }
 
-    for (i = n; i < n+f-2; i++) {
+    for (i = n; i < (f/2)+n-2; i++) {
         aux = n2;
         n2 = n1 +n2;
         n1 = aux;
     }
+        printf("the %dth number: %d\n", f, n2);
         if (id != 0)
     {
-        printf("the %dth number: %d\n", f, n2);
         printf("\n");
     }
 }
