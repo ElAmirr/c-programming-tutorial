@@ -25,7 +25,7 @@ int main(int argc, char **argv)
     //multiply the message with even number
     int id = fork();
     if (id != 0) {
-        fork();
+         fork();
     }
     printf("hello world\n");
     return 0;

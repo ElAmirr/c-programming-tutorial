@@ -28,7 +28,6 @@ int main(int argc, char **argv)
     n = 6;
     }
     if (id != 0)    //with tihs linr of code
-    {               //12345678910
         wait(NULL); //without this line of code
     }               //67891012345
     for(i = n; i < n + 5; i++)
